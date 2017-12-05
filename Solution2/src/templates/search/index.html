@@ -1,0 +1,20 @@
+<html>
+<head><title>RolePoint App</title></head>
+
+<form action="/search/submit/" method="get">
+	{% csrf_token %}
+	<input type="text" name="query" placeholder="Search for name or company" size="50" value="{{ query }}">
+	<input type="submit" value="Search >>" />
+	&nbsp;<a href="/search">Reset</a>
+</form>
+	
+<hr/>
+
+{% for item in data %}
+ <p>{{item.name}} <br/>
+ {{item.company}} <br/>
+ <a href="mailto:{{item.email}}">{{item.email}}</a></p> 
+ <hr/>
+{% endfor %}
+
+</html>
