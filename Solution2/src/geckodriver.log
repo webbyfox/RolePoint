@@ -105,3 +105,13 @@ See /usr/include/servers/bootstrap_defs.h for the error codes.
 1512515771632	geckodriver	INFO	Listening on 127.0.0.1:51629
 1512515774062	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
 1512515778473	Marionette	INFO	Enabled via --marionette
+2017-12-05 23:16:24.331 plugin-container[2468:160551] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa13f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1512515785713	Marionette	INFO	Listening on port 51635
+1512515786226	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512515786301	Marionette	DEBUG	Register listener.js for window 2147483649
+1512515786320	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512515786658	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512515786659	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512515786665	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1512515786686	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
